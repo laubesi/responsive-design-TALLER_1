@@ -278,7 +278,11 @@ footer .row .col-30:nth-child(3) h2{
     
     .container .filter .col-60 button{
         font-size: 1rem;
+    }
 
+    .container-main{
+        width: 100%;
+        height: 30vh;
     }
 
     .container-main .row .col-30 h2{
@@ -287,10 +291,180 @@ footer .row .col-30:nth-child(3) h2{
     
     .container-main .row .col-30 p{
         font-size: 1.2rem;
-
     }
 
     header nav ul li{
         font-size: 1.2rem;
     }
+
+    footer .row .col-30{
+        width: 15em;
+    }
 }
+
+/* 480 x 564  100%*/
+
+@media(max-width: 480px){
+    .container{
+        height: 40vh;
+    }
+
+    .container .filter{
+        width: 100%;
+        height: 60vh;
+    }
+    .container .filter .col-60{
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .container .filter .col-60 h2{
+        font-size: 1.6rem;
+    }
+    
+    .container .filter .col-60 p{
+        font-size: 0.8rem;
+    }
+
+    .container .filter .col-60 button{
+        font-size: 0.8rem;
+    }
+
+    .container-main .row{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 25vh;
+    }
+    
+    .container-main .row .col-30{
+        width: 10em;
+        height: 10em;
+        margin: 15px;
+    }
+
+    .container-main .row .col-30 h2{
+            font-size: 0.8rem;
+        }
+        
+    .container-main .row .col-30 p{
+            font-size: 0.9rem;
+        }
+
+    
+    footer .row{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .row .col-30{
+        width: 9em;
+        height: 40vh;
+    }
+    
+    footer .row .col-30:nth-child(1) ol{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer .row .col-30:nth-child(1) ol li{
+        font-size: 1.1rem;
+    }
+    
+    
+    footer .row .col-30:nth-child(2) ol li{
+        font-size: 1.1rem;
+    }
+    
+    footer .row .col-30:nth-child(3) h2{
+        font-size: 1.1rem;
+    }
+
+
+/* 370 x 564  100%*/
+
+@media(max-width: 370px){
+    .container{
+        height: 30vh;
+    }
+
+    header nav ul li{
+        font-size: 0.8rem;
+    }
+
+    .container .filter{
+        width: 100%;
+        height: 40vh;
+    }
+    .container .filter .col-60{
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .container .filter .col-60 h2{
+        font-size: 1.2rem;
+    }
+    
+    .container .filter .col-60 p{
+        font-size: 0.8rem;
+    }
+
+    .container .filter .col-60 button{
+        width: 40%;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .container-main .row{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 25vh;
+    }
+    
+    .container-main .row .col-30{
+        width: 10em;
+        height: 8em;
+        margin: 15px;
+    }
+
+    .container-main .row .col-30 h2{
+            font-size: 0.rem;
+    }
+        
+    .container-main .row .col-30 p{
+            font-size: 0.5rem;
+    }
+
+
+    footer .row{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .row .col-30{
+        width: 7.3em;
+        height: 35vh;
+    }
+    
+    footer .row .col-30:nth-child(1) ol{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer .row .col-30:nth-child(1) ol li{
+        font-size: 0.8rem;
+    }
+    
+    footer .row .col-30:nth-child(2) ol li{
+        font-size: 0.8rem;
+    }
+    
+    footer .row .col-30:nth-child(3) h2{
+        font-size: 0.8rem;
+    }
+
